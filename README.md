@@ -53,10 +53,18 @@ JavaScript: Implement interactive elements and client-side functionalities.
 React.js: Utilize the React library for building dynamic and responsive components.
 # Home Page
 
+![Screenshot (124)](https://github.com/uttammane1/Sugar-Cosmetics/assets/151371801/744f9ddb-4a1c-4f20-a657-8eeb90962fd2)
 
-![Sugar Cosmetics Logo](C:\Users\91888\Desktop\PROJECTS\sugar-cosmetics\Sugar-Cosmetics\Screenshot (124).png)
+![Screenshot (125)](https://github.com/uttammane1/Sugar-Cosmetics/assets/151371801/d0b229b0-614e-4156-90b5-a891f5c2a06c)
 
-![Sugar Cosmetics Logo](images/Screenshot (125).png)
+# SKINCARE PAGE
 
+![Screenshot (126)](https://github.com/uttammane1/Sugar-Cosmetics/assets/151371801/d5c27a76-0aaa-4015-aa5f-a3db516a6b2a)
 
+# TRENDING PAGE
 
+![Screenshot (127)](https://github.com/uttammane1/Sugar-Cosmetics/assets/151371801/d7906d6f-3c7c-44fd-b394-4a6131f93eaa)
+
+# LOG IN PAGE
+
+![Screenshot (128)](https://github.com/uttammane1/Sugar-Cosmetics/assets/151371801/eef0ebec-2976-4fb6-8435-230290f3454d)
