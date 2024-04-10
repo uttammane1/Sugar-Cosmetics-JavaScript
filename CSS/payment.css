@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100&family=Inter:wght@200;700&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;500&family=Quicksand:wght@300&family=Ubuntu:wght@500&display=swap');      
+*{
+  font-family:Quicksand ;
+}
+.paydrop{
+    
+    display: none;
+}
+
+#payinput>input{
+    
+    width: 100%;
+    height: 50px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+}
+#upi{
+    border: 1px solid gray;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+/* #payinput input{
+    width: 100%;
+    height: 100%;
+} */
+
+#dropdebit{
+    
+    display: none;
+    position: relative;
+}
+
+#dropdebit>input{
+    width: 100%;
+    height: 50px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    position: relative;
+}
+#exp{
+    display: flex;
+    gap: 235px;
+    height: 50px;
+}
+#exp input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+#mobwallet{
+    border: 1px solid gray;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#debitcard{
+    border: 1px solid gray;
+    display: flex;
+    gap: 20px; 
+    font-size: 14px; 
+}
+
+#netbanking{
+    border: 1px solid gray;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+#cash{
+    border: 1px solid gray;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#cashdrop{
+    display: none;
+    position: relative;
+    background-color: white;
+}
+
+.PaymentInfo_btn{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .maininfop{
+    width: 50%;
+} */
+
+.payContainer{
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #faf9f9;
+    border: 1px solid #faf9f9;
+    margin-bottom: 20px;
+    width: 666px;
+    cursor: pointer;
+    
+}
+.iconfles{
+    
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

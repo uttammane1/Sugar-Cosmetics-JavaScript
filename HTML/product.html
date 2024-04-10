@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://1000logos.net/wp-content/uploads/2020/07/SUGAR-Cosmetics-Logo1.jpg">
+
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/6a99807cc4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../CSS/product.css"/>
+    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/signin.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <br>
+    <div id="hometitle">
+    <img src="https://in.sugarcosmetics.com/desc-images/breadcrumb_home.svg"/>
+    <p>/
+        Blend trend makeup brush
+        /
+        Eyes brushes
+        /
+        Blend trend eyeshadow brush 043 round xl</p>
+    </div>
+
+ <div class="bigdiv"> 
+
+    <div class="promain">
+    
+       <div id="proimgdiv">
+         
+       </div>
+
+       <div id="prodetdiv">
+          <h1 id="prname"></h1>
+          <p id="pr_rating"></p>
+          <p id="pr_price"></p>
+          <button id="addbtn" onclick="addToCartBtn()">Add to Cart </button>
+          <p><a href="wishlist.html">Save to wishlist</a></p>
+       </div>
+
+    </div>
+    <img src="https://in.sugarcosmetics.com/productbanner.svg"/><br>
+    <label>Check Estimated Delivery Date For your Location :
+
+    </label>
+    <input type="text" placeholder="Enter Pincode" id="pin"/>
+    <button id="pinbtn">Check Now</button><br>
+    <h4>Available Offers!!</h4>
+    <p>– Get Rs. 1000 Off on a spend of Rs. 2499
+        <a href="#">Know More</a></p>
+        <p>– FREE Blend The Rules Eyeshadow Palette on a spend of Rs.1199
+            <a href="#">Know More</a></p>
+            <p>– Free Complimentary Products Worth Rs.599
+
+                <a href="#">Know More</a></p>
+
+
+    <div id="desbtn">
+        <button>Description</button>
+        <button>How to use</button>
+        <button>Similar Products</button>
+        <button>Reviews</button>
+    </div>
+
+    <p>Perfect for eyeshadow application and blending, SUGAR Blend Trend Eyeshadow Brush Round XL 043 softens harsh lines and applies the eye shadow transition colour with ease. This dome shaped, fluffy eye shadow brush with 100% cruelty-free bristles picks up powder or cream shadow with ease and rounded brush shape expertly blends and diffuses shadow into the crease. This brush can also be used contouring, shading and highlighting and is perfect for creating a smokey eye look.</p>
+
+    <h3>About the Range:</h3>
+
+    <p>SUGAR’s professional range of Blend Trend Makeup Brushes is designed for precision results and crafted with the best quality, velvety-soft synthetic bristles. From applying foundation to eyeshadow and cream blushes to powder makeup products, these exquisite makeup brushes do it all with finesse and help define your features beautifully, build coverage, accentuate beauty looks with ease whilst taking your makeup artistry to the next level.</p>
+
+    <h3>Features:</h3>
+
+    <ul>
+        <li>This rounded, dense eyeshadow brush is ideal for blending and diffusing out shadow at the crease</li>
+        <li>This brush’s shape is perfect for a targeted eyeshadow application ensuring there are no harsh edges</li>
+        <li>It effortlessly diffuses shadow for a beautifully blended crease and picks up powder or cream eyeshadow with ease</li>
+        <li>SUGAR Blend Trend Brushes feature high quality synthetic, 100% cruelty-free bristles that ensure precise application and diffusion of product</li>
+        <li>Easy to clean and durable, these makeup brushes are made with high-quality aluminum ferrules and premium wooden handles</li>
+    </ul>
+  </div>
+  <br>
+   <div id="footer"></div>
+</body>
+</html>
+<script src="../Scripts/common.js" type="module"></script>
+<script>
+   let ProducData = JSON.parse(localStorage.getItem("ProductPage"));
+   console.log(ProducData.name);
+   
+   let img = document.createElement("img");
+   img.src = ProducData.image_link;
+   document.getElementById("proimgdiv").append(img);
+   document.getElementById("prname").innerText = ProducData.name;
+   document.getElementById("pr_rating").innerText = "Rating : "+ProducData.rating;
+   document.getElementById("pr_price").innerText = "Rs. : "+ProducData.price;
+   
+   let cartData = JSON.parse(localStorage.getItem('cartItems')) || [];
+   const addToCartBtn = () => {
+       let obj = {
+           img:ProducData.image_link,
+           item_detail:'',
+           price:+ProducData.price,
+           qty:1,
+           title:ProducData.name
+       }
+       cartData.push(obj);
+       console.log('cartData:', cartData)
+       
+       localStorage.setItem('cartItems', JSON.stringify(cartData));
+       window.location.reload()
+   }
+   
+</script>

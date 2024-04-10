@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100&family=Inter:wght@200;700&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;500&family=Quicksand:wght@300&family=Ubuntu:wght@500&display=swap');      
+*{
+  font-family:Quicksand ;
+}
+
+#mainbottom {
+    width: 100%;
+    height: 700px;
+    border: 1px solid darkblue;
+    background-color: black;
+    font-family: sans-serif;
+    
+  }
+  #bottomlogo {
+    display: flex;
+    justify-content: center;
+  }
+  #mailbot {
+    background-color: white;
+    height: 15px;
+    width: 17px;
+  }
+  .social_logo {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  #bottomsocial {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  #underlogo {
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-top: 35px;
+  }
+  .bottomp {
+    width: 45%;
+  }
+  #googleplay {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  .gogp {
+    color: white;
+    display: flex;
+    width: 45%;
+    gap: 10px;
+  }
+  .gogp1 {
+    width: 39%;
+    display: flex;
+    justify-content: end;
+  }
+  .bottinput {
+    width: 60%;
+    height: 45px;
+    background-color: black;
+    border-bottom: 1px solid white;
+  }
+  .bottinput input {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    border: none;
+    outline: none;
+  }
+  #bottbtn {
+    cursor: pointer;
+    width: 90px;
+    height: 46px;
+    background-color: #fc2779;
+    color: white;
+  }
+  .subgogp {
+    width: 200px;
+  }
+  #info {
+    color: white;
+    margin-left: 124px;
+  }
+  #aboutus {
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 39px;
+    margin-top: 20px;
+  }
+  #touch {
+    color: white;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+  .subcontact {
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  #last {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 75px;
+  }
+  #bottomhr{
+      border: 0.5px solid white;
+  }
+  .bottxt{
+      text-align: center;
+      color: white;
+      margin-top: 50px;
+  }
+
+  @media (min-width: 414px) and (max-width: 896px) {
+    #mainbottom {
+        background-color: yellow;
+    }
+}

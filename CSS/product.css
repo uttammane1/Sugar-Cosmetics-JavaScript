@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100&family=Inter:wght@200;700&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;500&family=Quicksand:wght@300&family=Ubuntu:wght@500&display=swap');      
+*{
+  font-family:Quicksand ;
+}
+#hometitle{
+    display:flex;
+    margin:auto;
+    width:85%;
+}
+.bigdiv{
+    width:85%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin:auto;
+    padding:15px;
+    box-sizing: border-box;
+}
+.promain{
+    display:flex;
+    gap:120px;
+    width:100%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.promain img{
+    height:400px;
+    width:300px;
+}
+#prodetdiv{
+    width:500px;
+}
+#prodetdiv h1{
+    line-height:50px;
+}
+#prodetdiv p{
+    font-size: 20px;
+    color:grey;
+}
+button{
+    width:240px;
+    height:35px;
+    font-size: 16px;
+    color:white;
+    background-color:#212529;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+   color:grey; 
+}
+#pin{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height:35px;
+    margin-top:10px;
+}
+#pinbtn{
+    width:100px;
+    font-size: 12px;;
+}
+#desbtn{
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+#desbtn button{
+    width:305px;
+    height:40px;
+    color:blue;
+    background-color: #f9f9f9;
+    border:none;
+}
+#desbtn button:hover{
+    background-color: #f5f0f0;
+}
+#desbtn+p,h3,p,li{
+    margin-left:20px;
+}
+#desbtn,p,li{
+    color:grey;
+}

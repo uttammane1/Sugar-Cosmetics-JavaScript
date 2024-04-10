@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100&family=Inter:wght@200;700&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300;400&family=Poppins:wght@200;300;500&family=Quicksand:wght@300&family=Ubuntu:wght@500&display=swap');      
+*{
+  font-family:Quicksand ;
+}
+ #box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+     justify-content: center;
+     text-align: center;
+     padding: 10px;
+     height: 330px;
+ }
