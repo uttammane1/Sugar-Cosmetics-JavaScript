@@ -237,7 +237,7 @@ let fotter = ()=>{
     </div>
   </div>
   <div id="bottomhr"></div>
-  <p class="bottxt">Copyright © 2024 SUGAR Cosmetics. All rights reserved.</p>
+  <p class="bottxt">Code Written By @ Uttam Mane</p>
 </div>`
 }
 export {navbar,fotter}
